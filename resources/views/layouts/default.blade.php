@@ -18,7 +18,9 @@
     <!-- Right Panel -->
     <div id="right-panel" class="right-panel">
         @include('includes.navigationbar')
-        @yield('content')
+        <div class="content">
+            @yield('content')
+        </div>
         <div class="clearfix"></div>
     </div>
     <!-- /#right-panel -->
